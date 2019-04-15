@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+  <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+
+  <a-scene>
+    <a-video color="#FFC65D" src="#video-1" width="16" height="9" position="0 10 -16"></a-video>
+    <a-assets>
+      <!-- Single source video -->
+      <video id="video-1" style="display:none" autoplay loop crossorigin="anonymous" playsinline webkit-playsinline>
+         <!-- MP4 video source -->
+         <source type="video/mp4" src="https://github.com/jword1/360Video/blob/master/swatfinal0.mp4?raw=true" />
+      </video>
+    </a-assets>
+  </a-scene>
+  </body>
+</html>
